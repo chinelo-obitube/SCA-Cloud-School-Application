@@ -16,6 +16,8 @@ This assessment is in partial fulfillment of the requirements for the She Code A
 6. Build the image ```docker build -t scacloudschool``` .
 7. Run the container and check if the container is running on localhost:5000.
 8. Update the Dockerfile so the webpage displays 'Welcome to SCA Cloud School Application , this is my first assessment'
+9. Rebuild the image and rerun the container.
+10. Check to see if the webpage displays the updated page.
 
 
 ## Test Process
