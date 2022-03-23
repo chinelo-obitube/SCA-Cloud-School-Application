@@ -33,4 +33,4 @@ Note that the container will run on ```http:localhost:5000```
 
 ## Building on the exisitng image
 
-You can pull this image directly from Docker Hub using the command ```docker pull culnellie/sca-cloud-school-application```
+You can pull this image directly from Docker Hub using the command ```docker pull culnellie/sca-cloud-school-application:latest```
