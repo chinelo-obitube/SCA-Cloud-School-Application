@@ -13,7 +13,7 @@ This assessment is in partial fulfillment of the requirements for the She Code A
 2. Create the app.py which contains the code for the webpage.
 3. Create a Dockerfile which will be used to build the image for the webpage.
 5. Ensure that docker desktop is up and running.
-6. Build the image docker build -t scacloudschool .
+6. Build the image ```docker build -t scacloudschool``` .
 7. Run the container and check if the container is running on localhost:5000.
 8. Update the Dockerfile so the webpage displays 'Welcome to SCA Cloud School Application , this is my first assessment'
 
@@ -26,11 +26,11 @@ Instructions
 1. Clone the repository.
 
 2. Cd into the repository and checkout to the start branch.
-3. Run docker build --tag  sca-cloud-school-application to build the docker image locally.
-4. To test the application, use the command docker run -d -p 80:5000 sca-cloud-school-application.
+3. Run docker ```build --tag  sca-cloud-school-application``` to build the docker image locally.
+4. To test the application, use the command ```docker run -d -p 80:5000 sca-cloud-school-application```.
 
-Note that the container will run on http:localhost:5000
+Note that the container will run on ```http:localhost:5000```
 
 ## Building on the exisitng image
 
-You can pull this image directly from Docker Hub using the command '''docker pull culnellie/sca-cloud-school-application'''
+You can pull this image directly from Docker Hub using the command ```docker pull culnellie/sca-cloud-school-application```
